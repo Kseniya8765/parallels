@@ -50,12 +50,11 @@ nav a:hover {
   color: black;
 }
 
-.slider {
-  margin-top: 5%;
+.slides, .slider {
+  margin: 0 auto;
 }
 
 .slider img {
-  width: 1400px !important;
   height: 600px;
 }
 
@@ -66,7 +65,7 @@ nav a:hover {
 
 .slick-next {
   right: 25px;
-  z-index: 1;
+  z-index: 2;
 }
 
 .slick-prev:before,
@@ -128,7 +127,7 @@ nav a:hover {
   padding-bottom: 15%;
 }
 
-.purchaise h1 {
+.purchaise h5 {
   font-family: 'Roboto', sans-serif;
   color: #ffffff;
   font-size: 60px;
@@ -253,7 +252,7 @@ nav a:hover {
   text-align: center;
 }
 
-.price h1 {
+.price h5 {
   font-family: 'Roboto', sans-serif;
   color: #ffffff;
   font-size: 60px;
@@ -459,7 +458,7 @@ nav a:hover {
   padding-top: 19%;
 }
 
-.team h1 {
+.team h5 {
   font-family: 'Roboto', sans-serif;
   color: #fff;
   font-size: 60px;
@@ -692,7 +691,7 @@ nav a:hover {
   margin-top: 5%;
 }
 
-.great h1 {
+.great h5 {
   font-family: 'Roboto', sans-serif;
   color: #ffffff;
   font-size: 50px;
@@ -718,7 +717,7 @@ nav a:hover {
   height: 546px;
 }
 
-.co h1 {
+.co h5 {
   font-family: 'Roboto', sans-serif;
   color: #515151;
   font-size: 36px;
@@ -849,7 +848,7 @@ form input {
   margin-top: 9px;
 }
 
-.connect h1 {
+.connect h5 {
   font-family: 'Roboto', sans-serif;
   color: #ffffff;
   font-size: 50px;
@@ -1000,7 +999,7 @@ form input {
   margin-right: 12px;
 }
 
-.con h1 {
+.con h5 {
   font-family: 'Roboto', sans-serif;
   font-size: 6.5vw;
   color: aquamarine;
@@ -1418,10 +1417,6 @@ form input {
     padding: 0 10px;
   }
 
-  .slider img {
-    width: 1000px !important;
-    height: 500px;
-  }
 
   .section3 {
     background-image: url(img/fon.jpg);
@@ -1429,7 +1424,7 @@ form input {
     background-size: 100% auto;
   }
 
-  .purchaise h1 {
+  .purchaise h5 {
     font-size: 50px;
   }
 
@@ -1447,7 +1442,7 @@ form input {
     width: 281px;
   }
 
-  .team h1 {
+  .team h5 {
     font-size: 50px;
   }
 
@@ -1467,7 +1462,7 @@ form input {
     width: 281px;
   }
 
-  .great h1 {
+  .great h5 {
     font-size: 40px;
   }
 
@@ -1501,7 +1496,7 @@ form input {
     margin: 0 auto;
   }
 
-  .connect h1 {
+  .connect h5 {
     font-size: 40px;
   }
 
@@ -1540,12 +1535,10 @@ form input {
       display: none;
     }
 
-    .slider img {
-      width: 450px !important;
-      height: 300px;
-    }
+   
+  
 
-    .serv h1 {
+    .serv h5 {
       font-size: 30px;
     }
 
@@ -1565,7 +1558,7 @@ form input {
       height: 190px;
     }
 
-    .purchaise h1 {
+    .purchaise h5 {
       font-size: 25px;
       margin-bottom: 4%;
     }
@@ -1603,7 +1596,7 @@ form input {
       margin-bottom: 1%;
     }
 
-    .price h1 {
+    .price h5 {
       font-size: 30px;
       padding-top: 15%;
       margin-bottom: 7px;
@@ -1618,7 +1611,7 @@ form input {
       height: 229px;
     }
 
-    .pr1 h1 {
+    .pr1 h5 {
       font-size: 30px;
       margin-bottom: 20px;
     }
@@ -1661,7 +1654,7 @@ form input {
       padding-top: 15%;
     }
 
-    .team h1 {
+    .team h5 {
       font-size: 35px;
     }
 
@@ -1696,7 +1689,7 @@ form input {
       height: 190px;
     }
 
-    .great h1 {
+    .great h5 {
       font-size: 23px;
     }
 
@@ -1709,7 +1702,7 @@ form input {
       height: 806px;
     }
 
-    .co h1 {
+    .co h5 {
       font-size: 30px;
     }
 
@@ -1750,7 +1743,7 @@ form input {
       height: 229px;
     }
 
-    .connect h1 {
+    .connect h5 {
       font-size: 30px;
     }
 
