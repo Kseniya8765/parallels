@@ -17,10 +17,11 @@
   width: 100%;
 }
 
-.header {
+header {
   display: flex;
   justify-content: space-between;
   padding-top: 5%;
+  margin-bottom: 5%;
 }
 
 .logo {
@@ -36,18 +37,21 @@
   margin-left: 12px;
 }
 
-nav a {
+.menu a {
   font-family: 'Roboto', sans-serif;
   color: #595959;
   font-size: 16px;
   font-weight: 400;
   line-height: 20px;
   text-decoration: none;
-  margin-right: 7%;
+  padding-right: 15px;
 }
 
-nav a:hover {
+.menu a:hover {
   color: black;
+}
+.menu{
+  display: flex;
 }
 
 .slides, .slider {
@@ -1417,7 +1421,9 @@ form input {
     padding: 0 10px;
   }
 
-
+  .slider img{
+    height: 450px ;
+  }
   .section3 {
     background-image: url(img/fon.jpg);
     background-repeat: no-repeat;
@@ -1536,7 +1542,7 @@ form input {
     }
 
    
-  
+  .slider img{height: 350px;}
 
     .serv h5 {
       font-size: 30px;
